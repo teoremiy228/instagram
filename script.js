@@ -27,12 +27,10 @@ function likePost(element) {
 function addComment(element) {
     let commentInput = element.previousElementSibling;
     let commentText = commentInput.value;
-    if (commentText.trim() !== "") {
         let commentSection = element.nextElementSibling;
         let commentDiv = document.createElement("div");
         commentDiv.classList.add("comment");
         commentDiv.innerHTML = `<b>User:</b> <p>${commentText}</p>`;
         commentSection.appendChild(commentDiv);
         commentInput.value = "";
-    }
 }
