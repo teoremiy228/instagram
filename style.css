@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+nav {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(198, 198, 198);
+    padding: 0 20%;
+    background-color: #f8f8f8;
+}
+a {
+    display: flex;
+    align-self: center;
+    width: auto;
+    font-size: 30px;
+    text-decoration: none;
+    color: #333;
+}
+#posts {
+    display: flex;
+    justify-content: center;
+}
+#postsBox {
+    width: 40%;
+}
+.img {
+    width: 100%;
+    margin-top: 10px;
+}
+.post {
+    font-size: 16px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.ava {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.avaBox {
+    display: flex;
+    align-items: center;
+}
+.likes {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.like-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #e0245e;
+    margin-right: 10px;
+}
+.like-btn:hover {
+    color: #c51162;
+}
+.comment-input {
+    width: calc(100% - 70px);
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.comments {
+    margin-top: 20px;
+}
+.comment-section {
+    margin-top: 10px;
+}
+.comment {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.comment p {
+    margin-left: 10px;
+}
